@@ -1,6 +1,12 @@
 /** @type {import('next').NextConfig} */
+
+const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
-    basePath: "/clarity-path",
+    images: {
+        unoptimized: true,
+    },
+    assetPrefix: isProd ? "/clarity-path/" : '',
+    basePath: isProd ? "/clarity-path" : '',
     output: "export",
     reactStrictMode: true,
 };
