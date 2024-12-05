@@ -1,36 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Clarity Path
 
-## Getting Started
+This is a website for a fictional adult ADHD diagnostic and therapeutic service, called "Clarity Path", written using Next.js. The website contains a home page, an informational page on what ADHD is, a page about the provided services in more detail, and a contact page which contains a Google Maps Embed API call. There are also empty pages providing a space for an eventual blogs feature, an eventual search feature, and 404 and 500 pages for custom handling of those HTTP error codes. The website is optimised throughout for desktop, laptop, tablet, and mobile users, and contains some nice CSS animations which occur on scroll, implemented using the React Intersection Observer NPM package.
 
-First, run the development server:
+## TODO
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Implement search feature
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Implement blogs feature
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Implement sign-up/log-in feature
