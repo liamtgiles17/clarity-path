@@ -13,6 +13,7 @@ const poppins = Poppins({
 
 export default function ContactPage() {
     const [detailTrigger, detailIsInView] = useInView({threshold: 0.5, triggerOnce: true});
+    const mapsAPIKey = '';
 
     return (
         <div className={poppins.className}>
@@ -57,7 +58,7 @@ export default function ContactPage() {
                     </div>
                 </div>
                 <div className="m-0 p-0 w-full h-full">
-                    <iframe style={{width: "100%", height: "100%"}} referrerPolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCVTbLChyde4Xu9W8sHZtSu_v06i6BGKCE&q=Cygnet+Heathers" allowFullScreen></iframe>
+                    <iframe style={{width: "100%", height: "100%"}} referrerPolicy="no-referrer-when-downgrade" src={`https://www.google.com/maps/embed/v1/place?key=${mapsAPIKey}&q=Cygnet+Heathers`} allowFullScreen></iframe>
                 </div>
             </div>
 
