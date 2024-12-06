@@ -18,7 +18,7 @@ export default function Navbar() {
                 <div className="flex items-center bg-offwhite p-1 py-2 px-8 justify-between w-full">
 
                     <div className="flex items-center flex-grow sm:flex-grow-0">
-                        <Link href="/"><Image className="cursor-pointer object-contain max-md:w-[60%] md:w-[70%] px-4 -ml-8" alt="logo" src="clarity-path/logo.avif" priority={true} width={220} height={60} /></Link>
+                        <Link href="/"><Image className="cursor-pointer object-contain max-md:w-[60%] md:w-[70%] px-4 -ml-8" alt="logo" src="/clarity-path/logo.avif" priority={true} width={220} height={60} /></Link>
                     </div>
                     
                     <div className="" />
