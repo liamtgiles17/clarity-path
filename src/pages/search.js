@@ -13,7 +13,7 @@ const poppins = Poppins({
 });
 
 export default function SearchPage() {
-    const [searchTrigger, searchIsInView] = useInView({threshold: 1, triggerOnce: true});
+    const [searchTrigger, searchIsInView] = useInView({threshold: 0, triggerOnce: true});
 
     return (
         <div className={poppins.className}>

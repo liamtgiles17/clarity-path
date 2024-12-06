@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 export default function ContactPage() {
-    const [detailTrigger, detailIsInView] = useInView({threshold: 0.95, triggerOnce: true});
+    const [detailTrigger, detailIsInView] = useInView({threshold: 0.5, triggerOnce: true});
 
     return (
         <div className={poppins.className}>

@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 export default function BlogsPage() {
-    const [blogTrigger, blogIsInView] = useInView({threshold: 1, triggerOnce: true});
+    const [blogTrigger, blogIsInView] = useInView({threshold: 0, triggerOnce: true});
 
     return (
         <div className={poppins.className}>

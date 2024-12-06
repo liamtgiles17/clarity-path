@@ -13,7 +13,7 @@ const poppins = Poppins({
 });
 
 export default function InternalServerError() {
-    const [error2Trigger, error2IsInView] = useInView({threshold: 1, triggerOnce: true});
+    const [error2Trigger, error2IsInView] = useInView({threshold: 0, triggerOnce: true});
 
     return (
         <div className={poppins.className}>

@@ -13,7 +13,7 @@ const poppins = Poppins({
 });
 
 export default function PageNotFound() {
-    const [errorTrigger, errorIsInView] = useInView({threshold: 1, triggerOnce: true});
+    const [errorTrigger, errorIsInView] = useInView({threshold: 0, triggerOnce: true});
 
     return (
         <div className={poppins.className}>

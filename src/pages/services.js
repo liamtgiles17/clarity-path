@@ -12,9 +12,9 @@ const poppins = Poppins({
 });
 
 export default function OurServices() {
-    const [firstTrigger, firstIsInView] = useInView({threshold: 0.95, triggerOnce: true});
-    const [secondTrigger, secondIsInView] = useInView({threshold: 0.95, triggerOnce: true});
-    const [thirdTrigger, thirdIsInView] = useInView({threshold: 0.95, triggerOnce: true});
+    const [firstTrigger, firstIsInView] = useInView({threshold: 0.5, triggerOnce: true});
+    const [secondTrigger, secondIsInView] = useInView({threshold: 0.5, triggerOnce: true});
+    const [thirdTrigger, thirdIsInView] = useInView({threshold: 0.5, triggerOnce: true});
 
     return (
         <div className={poppins.className}>

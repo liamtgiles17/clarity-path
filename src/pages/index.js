@@ -18,11 +18,11 @@ const poppins = Poppins({
 });
 
 export default function AboutPage() {
-    const [heroTrigger, heroIsInView] = useInView({threshold: 1, triggerOnce: true});
-    const [aboutTrigger, aboutIsInView] = useInView({threshold: 0.95, triggerOnce: true});
-    const [whatTrigger, whatIsInView] = useInView({threshold: 0.95, triggerOnce: true});
-    const [ourTrigger, ourIsInView] = useInView({threshold: 0.95, triggerOnce: true});
-    const [testTrigger, testIsInView] = useInView({threshold: 0.95, triggerOnce: true});
+    const [heroTrigger, heroIsInView] = useInView({threshold: 0, triggerOnce: true});
+    const [aboutTrigger, aboutIsInView] = useInView({threshold: 0.5, triggerOnce: true});
+    const [whatTrigger, whatIsInView] = useInView({threshold: 0.5, triggerOnce: true});
+    const [ourTrigger, ourIsInView] = useInView({threshold: 0.5, triggerOnce: true});
+    const [testTrigger, testIsInView] = useInView({threshold: 0.5, triggerOnce: true});
     const isExtraSmall = useMediaQuery({minWidth: 480});
     const isExtraLarge = useMediaQuery({minWidth: 1500});
 
